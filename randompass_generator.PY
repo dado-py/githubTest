@@ -1,6 +1,6 @@
 import random, string
 from pathlib import Path
-length = int(input('Unesi dužinu šifre: '))
+length = int(input('Enter the length of the password '))
 letters = string.ascii_letters
 nums = string.digits
 chars = letters + nums + '!@:%#)('
